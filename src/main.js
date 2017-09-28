@@ -4,6 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueMaterial from 'vue-material'
+import 'vue-material/dist/vue-material.css'
+
+// custom components
+import PageContent from '@/components/PageContent'
+
+Vue.component('page-content', PageContent)
 
 Vue.config.productionTip = false
 Vue.use(VueMaterial)
